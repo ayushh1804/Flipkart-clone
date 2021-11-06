@@ -1,0 +1,147 @@
+@import url(@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@1,100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap');
+:root{
+    --main-bg-color:#2857e3;
+
+}
+
+*{
+    padding: 0;    
+    margin: 0;
+}
+footer{
+    height: 8vh;
+    background-color:var(--main-bg-color);
+    color: white;
+    font-family: 'Lato', sans-serif;
+}
+nav ul li{
+    list-style: none;
+    padding: 0 23px;
+}
+nav ul{
+    height: 40px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+
+}
+nav{
+    display: flex;
+}
+.logo{
+    display: flex;
+    align-items: center;
+}
+.logo img{
+    width: 80px;
+    padding: 0 23px;
+}
+.container{
+    min-height: calc(100vh - 50px - 8vh);
+}
+
+nav ul li a{
+    color: white;
+    
+    background-color: var(--main-bg-color);
+    text-decoration: none;
+    font-family: 'Lato', sans-serif;
+
+}
+nav ul li a:hover{
+    color: rgb(19, 235, 235);
+    font-weight: bolder;
+}
+.search{
+    display: flex;
+     /* justify-content: center; */
+    align-items: center;
+    width: 80vh;
+   
+}
+.search input{
+    width: 1200px;
+    height: 26px;
+    border-radius: 3px;
+    margin: 0 16px 0 60px;
+    padding: 0 12px;
+}
+header{
+    height: 50px;
+    color: white;
+    background-color: var(--main-bg-color);
+    border: 2px solid rgb(240, 162, 207);
+}
+.search button{
+    font-weight: 900;
+}
+.btn{
+    padding: 5px 10px;
+    color: white;
+    background: var(--main-bg-color);
+    border-radius: 7px;
+    cursor: pointer;
+}
+.slider img{
+    display: flex;
+    /* margin: auto; */
+    width: 80vw;
+    margin: 12px auto}
+    
+/* }
+h2{
+    /* display: flex; */
+    /* align-content: center; */
+    /* justify-content: center;
+}
+imgcol{
+    display: flex;} */ 
+    /* justify-content: center;
+    align-content: center;
+} */
+ .card-item{
+     display: inline-flex;
+     justify-content: center;
+    background-color: whitesmoke;
+    width: 12vw;
+    flex-direction: column;
+    margin: 0 40px;
+}
+
+
+.card{
+    background-color:whitesmoke;
+    max-width: 90vw;
+    margin: auto;
+    border-radius: 5px;
+
+}
+h4{
+    margin: 12px 0
+    font-family: Ubuntu, 'sans-serif';
+}
+.text-center{
+    text-align: center;
+}
+.car1{
+    display: flex;
+justify-content: center;
+align-content: center;
+background-color: blue;
+color: white;
+margin: 5px 15px 5px 550px;
+}
+
+.car2{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    background-color: blue;
+    color: white;
+    margin: 5px auto 5px 10px;
+}
+.flex-all-center img{
+    margin: 10px 600px;
+}
+
